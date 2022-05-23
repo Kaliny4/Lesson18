@@ -1,0 +1,76 @@
+body {
+	font-family:'Poppins', sans-serif;
+	
+}
+
+.section1 {
+	background: url(../media/background.jpg);
+	background-size: cover;
+	background-position: bottom right;
+	color: #444444;
+	margin-top: 80px;
+	padding: 156px 0px 177px 0px;
+	min-height: 100vh;
+}
+
+.section1 h1 {
+	font-size: 49px;
+	line-height: 68px;
+	width: 560px;
+	margin-bottom: 2px;
+}
+
+.section1 h1 span::before {
+	content: "";
+	background: #2BCA8B;
+	width: 100%;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	height: 4px;
+}
+
+.section1 h1 span {
+	color: #2BCA8B;
+	padding-right: 6px;
+	position: relative;
+}
+
+
+.section1 p {
+	font-size: 19px;
+	line-height: 37px;
+	width: 560px;
+	margin-bottom: 83px;
+}
+
+.section1-btn {
+	font-size: 23px;
+	line-height: 23px;
+	text-align: center;
+	padding: 12px 23px 0px 23px;
+
+}
+
+.section1-btn-wrap {
+	display: flex;
+}
+
+.section1-btn.btn-orange {
+	color: #FFFFFF;
+	background: #F55F39;
+	margin-right: 15px;
+}
+
+.section1-btn.btn-white {
+	background: #ffff;
+	color: #4D4D4D;
+}
+
+.section1-btn span {
+	font-size: 14px;
+	line-height: 24px;
+	display: block;
+	padding-top: 7px;
+	margin-left: -17px;
+}
